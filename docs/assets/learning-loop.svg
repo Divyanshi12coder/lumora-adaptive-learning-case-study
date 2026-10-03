@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">The Lumora learning loop</title>
+<desc id="desc">A closed loop: Learn (adaptive lesson), Practise (personalised quiz), Signals (accuracy, pace, hints, skips, confidence), Engine (support score to strategy), Adapt (difficulty, density, hints, pacing), and back to Learn.</desc>
+<style>
+.t{font-family:'Segoe UI', -apple-system, Helvetica, Arial, sans-serif}
+.s{font-family:Georgia, 'Times New Roman', serif}
+.m{font-family:ui-monospace, Menlo, Consolas, monospace}
+.flow{stroke-dasharray:5 6;animation:fl 1.1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-11}}
+.pulse{animation:pu 3.2s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:.45}50%{opacity:.95}}
+
+.dot{stroke-dasharray:0.1 999.9;animation:mv 12s linear infinite}
+.trail{stroke-dasharray:28 972;animation:mv2 12s linear infinite}
+@keyframes mv{to{stroke-dashoffset:-1000}}
+@keyframes mv2{from{stroke-dashoffset:28}to{stroke-dashoffset:-972}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#772233" flood-opacity="0.09"/></filter><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1L9 5L0 9z" fill="#772233"/></marker></defs>
+<rect width="1200" height="360" rx="22" fill="#FFFDF7"/><rect x="0.5" y="0.5" width="1199" height="359" rx="22" fill="none" stroke="#E5DCCF"/>
+<text x="32" y="42" class="t" font-size="13" fill="#A0711C" letter-spacing="3" font-weight="700">THE LEARNING LOOP</text>
+<text x="32" y="64" class="t" font-size="14" fill="#5B3A35">one closed loop per learner, every session</text>
+<path d="M160 196 A440 104 0 1 1 1040 196 A440 104 0 1 1 160 196" fill="none" stroke="#E9B949" stroke-width="10" stroke-opacity="0.22"/>
+<path d="M160 196 A440 104 0 1 1 1040 196 A440 104 0 1 1 160 196" fill="none" stroke="#772233" stroke-width="1.6" class="flow" opacity="0.7"/>
+<path d="M160 196 A440 104 0 1 1 1040 196 A440 104 0 1 1 160 196" pathLength="1000" fill="none" stroke="#AE4F5E" stroke-width="8" stroke-linecap="round" class="trail" opacity="0.35"/>
+<path d="M160 196 A440 104 0 1 1 1040 196 A440 104 0 1 1 160 196" pathLength="1000" fill="none" stroke="#772233" stroke-width="14" stroke-linecap="round" class="dot"/>
+<g transform="translate(570 162) scale(0.9375)" opacity="0.9"><defs><radialGradient id="lpS" cx="50%" cy="38%" r="65%"><stop offset="0%" stop-color="#FFF6D6"/><stop offset="100%" stop-color="#F8D570"/></radialGradient></defs><circle cx="32" cy="32" r="30" fill="url(#lpS)"/>
+<path d="M31 48C24.5 43.5 16 42.5 9.5 44V27C16 25.5 24.5 26.5 31 31Z" fill="#772233"/>
+<path d="M33 48C39.5 43.5 48 42.5 54.5 44V27C48 25.5 39.5 26.5 33 31Z" fill="#8E2F3F"/>
+<path d="M13.5 32.5C18 31.8 23 32.3 27.5 34.4M13.5 37.5C18 36.8 23 37.3 27.5 39.4" stroke="#FFF2CC" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+<path d="M50.5 32.5C46 31.8 41 32.3 36.5 34.4M50.5 37.5C46 36.8 41 37.3 36.5 39.4" stroke="#FFF2CC" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+<path d="M32 31V20" stroke="#5F1A29" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M32 24C27 24 23.5 21 23 16.5C27.5 16.5 31 19.5 32 24Z" fill="#AE4F5E"/>
+<path d="M32 21.5C37 21.5 40.5 18.5 41 14C36.5 14 33 17 32 21.5Z" fill="#772233"/>
+<path d="M47 8.5L48.3 12.7L52.5 14L48.3 15.3L47 19.5L45.7 15.3L41.5 14L45.7 12.7Z" fill="#5F1A29"/></g>
+<text x="600" y="242" class="t" font-size="13" fill="#A39584" text-anchor="middle" letter-spacing="1">adapts every turn</text>
+<path d="M-6 -6L4 0L-6 6" fill="none" stroke="#772233" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(198.0 153.7) rotate(-28.0)"/>
+<path d="M-6 -6L4 0L-6 6" fill="none" stroke="#772233" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(600.0 92.0) rotate(-0.0)"/>
+<path d="M-6 -6L4 0L-6 6" fill="none" stroke="#772233" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(911.1 269.5) rotate(166.7)"/>
+<path d="M-6 -6L4 0L-6 6" fill="none" stroke="#772233" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(288.9 269.5) rotate(-166.7)"/>
+<rect x="60" y="160" width="200" height="72" rx="18" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="88.0" cy="196.0" r="14" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="88" y="201" class="t" font-size="13" fill="#772233" text-anchor="middle" font-weight="700">1</text>
+<text x="112" y="191" class="s" font-size="19" fill="#5F1A29" font-weight="700">Learn</text>
+<text x="112" y="213" class="t" font-size="13" fill="#5B3A35">adaptive lesson</text>
+<rect x="237.626" y="74.8082" width="220" height="72" rx="18" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="265.6" cy="110.8" r="14" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="265.626" y="115.808" class="t" font-size="13" fill="#772233" text-anchor="middle" font-weight="700">2</text>
+<text x="289.626" y="105.808" class="s" font-size="19" fill="#5F1A29" font-weight="700">Practise</text>
+<text x="289.626" y="127.808" class="t" font-size="13" fill="#5B3A35">personalised quiz</text>
+<rect x="662.374" y="74.8082" width="380" height="72" rx="18" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="690.4" cy="110.8" r="14" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="690.374" y="115.808" class="t" font-size="13" fill="#772233" text-anchor="middle" font-weight="700">3</text>
+<text x="714.374" y="105.808" class="s" font-size="19" fill="#5F1A29" font-weight="700">Signals</text>
+<text x="714.374" y="127.808" class="t" font-size="13" fill="#5B3A35">accuracy · pace · hints · skips · confidence</text>
+<rect x="915" y="160" width="250" height="72" rx="18" fill="#772233" filter="url(#sh)"/>
+<circle cx="943.0" cy="196.0" r="14" fill="#F8D570" stroke="#E9B949"/>
+<text x="943" y="201" class="t" font-size="13" fill="#772233" text-anchor="middle" font-weight="700">4</text>
+<text x="967" y="191" class="s" font-size="19" fill="#FFF9EA" font-weight="700">Engine</text>
+<text x="967" y="213" class="t" font-size="13" fill="#FFF2CC">support score → strategy</text>
+<rect x="435" y="264" width="330" height="72" rx="18" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="463.0" cy="300.0" r="14" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="463" y="305" class="t" font-size="13" fill="#772233" text-anchor="middle" font-weight="700">5</text>
+<text x="487" y="295" class="s" font-size="19" fill="#5F1A29" font-weight="700">Adapt</text>
+<text x="487" y="317" class="t" font-size="13" fill="#5B3A35">difficulty · density · hints · pacing</text>
+<text x="24" y="346" class="t" font-size="12" fill="#772233" letter-spacing="2" opacity="0.45">LUMORA ✦ BUILT &amp; CREATED BY DIVYANSHI</text>
+</svg>

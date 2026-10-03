@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">Lumora - adaptive learning, built around the learner</title>
+<desc id="desc">Lumora banner: the logo and wordmark, the headline Adaptive learning, built around the learner, and a flow from Learner to Interactions to Learning signals to Adaptive engine to Personalised experience. Built and created by Divyanshi.</desc>
+<style>
+.t{font-family:'Segoe UI', -apple-system, Helvetica, Arial, sans-serif}
+.s{font-family:Georgia, 'Times New Roman', serif}
+.m{font-family:ui-monospace, Menlo, Consolas, monospace}
+.flow{stroke-dasharray:5 6;animation:fl 1.1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-11}}
+.pulse{animation:pu 3.2s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:.45}50%{opacity:.95}}
+
+.fa{animation:fa 7s ease-in-out infinite}
+.fb{animation:fa 8s ease-in-out -2.5s infinite}
+.fc{animation:fa 6.5s ease-in-out -4s infinite}
+@keyframes fa{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#772233" flood-opacity="0.09"/></filter><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1L9 5L0 9z" fill="#772233"/></marker><linearGradient id="bnBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#FFF2CC"/></linearGradient><radialGradient id="bnSun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#F8D570" stop-opacity="0.75"/><stop offset="1" stop-color="#F8D570" stop-opacity="0"/></radialGradient><pattern id="bnRule" width="40" height="34" patternUnits="userSpaceOnUse"><path d="M0 33.5H40" stroke="#E9B949" stroke-opacity="0.22"/></pattern><pattern id="bnDot" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#772233" fill-opacity="0.10"/></pattern><clipPath id="bnClip"><rect width="1280" height="420" rx="26"/></clipPath></defs>
+<g clip-path="url(#bnClip)">
+<rect width="1280" height="420" fill="url(#bnBg)"/>
+<rect width="660" height="420" fill="url(#bnRule)"/>
+<path d="M50 0V420" stroke="#AE4F5E" stroke-opacity="0.22" stroke-width="1.5"/>
+<rect x="680" width="600" height="420" fill="url(#bnDot)"/>
+<circle cx="1190" cy="40" r="300" fill="url(#bnSun)" class="pulse"/>
+</g>
+<rect x="0.5" y="0.5" width="1279" height="419" rx="26" fill="none" stroke="#E5DCCF"/>
+<g transform="translate(76 56) scale(1.3750)"><defs><radialGradient id="bnS" cx="50%" cy="38%" r="65%"><stop offset="0%" stop-color="#FFF6D6"/><stop offset="100%" stop-color="#F8D570"/></radialGradient></defs><circle cx="32" cy="32" r="30" fill="url(#bnS)"/>
+<path d="M31 48C24.5 43.5 16 42.5 9.5 44V27C16 25.5 24.5 26.5 31 31Z" fill="#772233"/>
+<path d="M33 48C39.5 43.5 48 42.5 54.5 44V27C48 25.5 39.5 26.5 33 31Z" fill="#8E2F3F"/>
+<path d="M13.5 32.5C18 31.8 23 32.3 27.5 34.4M13.5 37.5C18 36.8 23 37.3 27.5 39.4" stroke="#FFF2CC" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+<path d="M50.5 32.5C46 31.8 41 32.3 36.5 34.4M50.5 37.5C46 36.8 41 37.3 36.5 39.4" stroke="#FFF2CC" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+<path d="M32 31V20" stroke="#5F1A29" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M32 24C27 24 23.5 21 23 16.5C27.5 16.5 31 19.5 32 24Z" fill="#AE4F5E"/>
+<path d="M32 21.5C37 21.5 40.5 18.5 41 14C36.5 14 33 17 32 21.5Z" fill="#772233"/>
+<path d="M47 8.5L48.3 12.7L52.5 14L48.3 15.3L47 19.5L45.7 15.3L41.5 14L45.7 12.7Z" fill="#5F1A29"/></g>
+<text x="184" y="116" class="s" font-size="56" fill="#5F1A29" letter-spacing="10" font-weight="700">LUMORA</text>
+<text x="186" y="142" class="t" font-size="13" fill="#A0711C" letter-spacing="4" font-weight="700">ADAPTIVE LEARNING PLATFORM</text>
+<text x="78" y="214" class="s" font-size="36" fill="#3A1F1C">Adaptive learning,</text>
+<text x="78" y="258" class="s" font-size="36" fill="#772233" font-style="italic">built around the learner.</text>
+<text x="80" y="302" class="t" font-size="16" fill="#5B3A35">AI tutor · RAG · interpretable ML · an explainable adaptive engine</text>
+<path d="M80 351H116" stroke="#E9B949" stroke-width="2" stroke-linecap="round"/>
+<text x="128" y="356" class="t" font-size="13" fill="#772233" letter-spacing="3" font-weight="700">✦ BUILT &amp; CREATED BY DIVYANSHI</text>
+<path d="M800 64 C800 104 860 98 860 138 S920 172 920 212 S860 246 860 286 S800 320 800 360" fill="none" stroke="#E9B949" stroke-width="6" stroke-opacity="0.35" stroke-linecap="round"/>
+<path d="M800 64 C800 104 860 98 860 138 S920 172 920 212 S860 246 860 286 S800 320 800 360" fill="none" stroke="#772233" stroke-width="2" class="flow"/>
+<rect x="734.104" y="42" width="131.793" height="44" rx="22" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="756.104" cy="64" r="12" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="756.104" y="68.5" class="t" font-size="12" fill="#772233" text-anchor="middle" font-weight="700">1</text>
+<text x="778.104" y="69" class="t" font-size="15" fill="#3A1F1C" font-weight="700">Learner</text>
+<rect x="772.035" y="116" width="175.93" height="44" rx="22" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="794.035" cy="138" r="12" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="794.035" y="142.5" class="t" font-size="12" fill="#772233" text-anchor="middle" font-weight="700">2</text>
+<text x="816.035" y="143" class="t" font-size="15" fill="#3A1F1C" font-weight="700">Interactions</text>
+<rect x="814.38" y="190" width="211.24" height="44" rx="22" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="836.38" cy="212" r="12" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="836.38" y="216.5" class="t" font-size="12" fill="#772233" text-anchor="middle" font-weight="700">3</text>
+<text x="858.38" y="217" class="t" font-size="15" fill="#3A1F1C" font-weight="700">Learning signals</text>
+<rect x="758.794" y="264" width="202.413" height="44" rx="22" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<circle cx="780.794" cy="286" r="12" fill="#FFF2CC" stroke="#E9B949"/>
+<text x="780.794" y="290.5" class="t" font-size="12" fill="#772233" text-anchor="middle" font-weight="700">4</text>
+<text x="802.794" y="291" class="t" font-size="15" fill="#3A1F1C" font-weight="700">Adaptive engine</text>
+<rect x="663.484" y="338" width="273.033" height="44" rx="22" fill="#772233" filter="url(#sh)"/>
+<circle cx="685.484" cy="360" r="12" fill="#F8D570" stroke="#E9B949"/>
+<text x="685.484" y="364.5" class="t" font-size="12" fill="#772233" text-anchor="middle" font-weight="700">5</text>
+<text x="707.484" y="365" class="t" font-size="15" fill="#FFF9EA" font-weight="700">Personalised experience</text>
+<g class="fa"><rect x="1046" y="40" width="196" height="142" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/><text x="1066" y="68" class="t" font-size="12" fill="#A0711C" letter-spacing="2" font-weight="700">QUICK CHECK</text><rect x="1066" y="80" width="152" height="8" rx="4" fill="#E5DCCF"/><rect x="1066" y="94" width="108" height="8" rx="4" fill="#E5DCCF"/><rect x="1066" y="112" width="158" height="18" rx="9" fill="#FFF9EA" stroke="#E5DCCF"/><circle cx="1077" cy="121" r="4.5" fill="#FFFDF7" stroke="#A39584"/><rect x="1088" y="118" width="96" height="6" rx="3" fill="#E5DCCF"/><rect x="1066" y="134" width="158" height="18" rx="9" fill="#F4DCE0" stroke="#AE4F5E"/><circle cx="1077" cy="143" r="4.5" fill="#772233" stroke="#772233"/><rect x="1088" y="140" width="112" height="6" rx="3" fill="#AE4F5E"/><rect x="1066" y="156" width="158" height="18" rx="9" fill="#FFF9EA" stroke="#E5DCCF"/><circle cx="1077" cy="165" r="4.5" fill="#FFFDF7" stroke="#A39584"/><rect x="1088" y="162" width="80" height="6" rx="3" fill="#E5DCCF"/></g>
+<g class="fb"><rect x="1076" y="204" width="168" height="80" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/><circle cx="1114" cy="244" r="22" fill="none" stroke="#FFF2CC" stroke-width="7"/><circle cx="1114" cy="244" r="22" fill="none" stroke="#772233" stroke-width="7" stroke-linecap="round" stroke-dasharray="96.8 138.2" transform="rotate(-90 1114 244)"/><text x="1148" y="240" class="s" font-size="15" fill="#3A1F1C" font-weight="700">Mastery</text><text x="1148" y="260" class="t" font-size="12" fill="#5B3A35">trending up ↑</text></g>
+<g class="fc"><rect x="1046" y="312" width="200" height="38" rx="19" fill="#FFF2CC" stroke="#E9B949" filter="url(#sh)"/><circle cx="1066" cy="331" r="5" fill="#772233"/><text x="1080" y="336" class="m" font-size="13" fill="#772233" font-weight="700">hint level: guided</text></g>
+</svg>

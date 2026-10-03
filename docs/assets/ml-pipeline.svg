@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">Lumora machine learning pipeline</title>
+<desc id="desc">Five models: Bayesian Knowledge Tracing for mastery, logistic regression for struggle, gradient boosting for engagement, a least-squares slope for trend, and K-means for descriptive profiles, each feeding a product decision.</desc>
+<style>
+.t{font-family:'Segoe UI', -apple-system, Helvetica, Arial, sans-serif}
+.s{font-family:Georgia, 'Times New Roman', serif}
+.m{font-family:ui-monospace, Menlo, Consolas, monospace}
+.flow{stroke-dasharray:5 6;animation:fl 1.1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-11}}
+.pulse{animation:pu 3.2s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:.45}50%{opacity:.95}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#772233" flood-opacity="0.09"/></filter><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1L9 5L0 9z" fill="#772233"/></marker></defs>
+<rect width="1200" height="640" rx="22" fill="#FFFDF7"/><rect x="0.5" y="0.5" width="1199" height="639" rx="22" fill="none" stroke="#E5DCCF"/>
+<text x="32" y="38" class="t" font-size="13" fill="#A0711C" letter-spacing="3" font-weight="700">MACHINE LEARNING</text>
+<text x="212" y="38" class="t" font-size="14" fill="#5B3A35" font-style="italic">· trained on synthetic bootstrap data</text>
+<text x="150" y="72" class="t" font-size="12" fill="#772233" letter-spacing="2" font-weight="700">INPUT</text>
+<text x="304" y="72" class="t" font-size="12" fill="#772233" letter-spacing="2" font-weight="700">FEATURES</text>
+<text x="572" y="72" class="t" font-size="12" fill="#772233" letter-spacing="2" font-weight="700">MODEL</text>
+<text x="790" y="72" class="t" font-size="12" fill="#772233" letter-spacing="2" font-weight="700">PREDICTION</text>
+<text x="980" y="72" class="t" font-size="12" fill="#772233" letter-spacing="2" font-weight="700">PRODUCT DECISION</text>
+<rect x="32" y="86" width="1136" height="84" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="44" y="134" class="s" font-size="17" fill="#5F1A29" font-weight="700">Mastery</text>
+<text x="150" y="133" class="t" font-size="13" fill="#5B3A35">answer sequence</text>
+<path d="M276 123.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="304" y="124.5" class="t" font-size="13" fill="#5B3A35">correct / hinted / options</text>
+<text x="304" y="141.5" class="t" font-size="13" fill="#5B3A35">shown</text>
+<path d="M544 123.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="560" y="98" width="196" height="60" rx="12" fill="#FFF2CC" stroke="#E9B949" stroke-opacity="0.6"/>
+<text x="572" y="124.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">Bayesian Knowledge</text>
+<text x="572" y="141.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">Tracing</text>
+<path d="M762 123.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="778" y="98" width="168" height="60" rx="12" fill="#F4DCE0" stroke="#AE4F5E" stroke-opacity="0.5"/>
+<text x="790" y="133" class="t" font-size="13" fill="#5F1A29" font-weight="700">P(knows topic)</text>
+<path d="M952 123.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="980" y="124.5" class="t" font-size="13" fill="#3A1F1C">engine mastery family ·</text>
+<text x="980" y="141.5" class="t" font-size="13" fill="#3A1F1C">journey stage · review</text>
+<rect x="32" y="180" width="1136" height="84" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="44" y="228" class="s" font-size="17" fill="#5F1A29" font-weight="700">Struggle</text>
+<text x="150" y="227" class="t" font-size="13" fill="#5B3A35">learner history</text>
+<path d="M276 217.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="304" y="201.5" class="t" font-size="13" fill="#5B3A35">mastery, recent accuracy,</text>
+<text x="304" y="218.5" class="t" font-size="13" fill="#5B3A35">hints, skips, streak, pace,</text>
+<text x="304" y="235.5" class="t" font-size="13" fill="#5B3A35">confidence, difficulty,</text>
+<text x="304" y="252.5" class="t" font-size="13" fill="#5B3A35">attempts</text>
+<path d="M544 217.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="560" y="192" width="196" height="60" rx="12" fill="#FFF2CC" stroke="#E9B949" stroke-opacity="0.6"/>
+<text x="572" y="218.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">Logistic regression</text>
+<text x="572" y="235.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">(standardised)</text>
+<path d="M762 217.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="778" y="192" width="168" height="60" rx="12" fill="#F4DCE0" stroke="#AE4F5E" stroke-opacity="0.5"/>
+<text x="790" y="218.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">P(next answer</text>
+<text x="790" y="235.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">incorrect)</text>
+<path d="M952 217.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="980" y="218.5" class="t" font-size="13" fill="#3A1F1C">engine ml_struggle</text>
+<text x="980" y="235.5" class="t" font-size="13" fill="#3A1F1C">family (weight 0.20)</text>
+<rect x="32" y="274" width="1136" height="84" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="44" y="312" class="s" font-size="17" fill="#5F1A29" font-weight="700">Engage-</text>
+<text x="44" y="332" class="s" font-size="17" fill="#5F1A29" font-weight="700">ment</text>
+<text x="150" y="312.5" class="t" font-size="13" fill="#5B3A35">session</text>
+<text x="150" y="329.5" class="t" font-size="13" fill="#5B3A35">snapshot</text>
+<path d="M276 311.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="304" y="312.5" class="t" font-size="13" fill="#5B3A35">minutes, events/min, accuracy,</text>
+<text x="304" y="329.5" class="t" font-size="13" fill="#5B3A35">hints, skips, streak, idle</text>
+<path d="M544 311.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="560" y="286" width="196" height="60" rx="12" fill="#FFF2CC" stroke="#E9B949" stroke-opacity="0.6"/>
+<text x="572" y="312.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">Gradient boosting</text>
+<text x="572" y="329.5" class="t" font-size="13" fill="#5F1A29" font-weight="700">(selected on validation)</text>
+<path d="M762 311.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="778" y="286" width="168" height="60" rx="12" fill="#F4DCE0" stroke="#AE4F5E" stroke-opacity="0.5"/>
+<text x="790" y="321" class="t" font-size="13" fill="#5F1A29" font-weight="700">P(continues ≥ 5 min)</text>
+<path d="M952 311.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="980" y="304" class="t" font-size="13" fill="#3A1F1C">gentle nudges only:</text>
+<text x="980" y="321" class="t" font-size="13" fill="#3A1F1C">breaks, lighter pages,</text>
+<text x="980" y="338" class="t" font-size="13" fill="#3A1F1C">shorter quiz</text>
+<rect x="32" y="368" width="1136" height="84" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="44" y="416" class="s" font-size="17" fill="#5F1A29" font-weight="700">Trend</text>
+<text x="150" y="415" class="t" font-size="13" fill="#5B3A35">recent outcomes</text>
+<path d="M276 405.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="304" y="415" class="t" font-size="13" fill="#5B3A35">rolling accuracy</text>
+<path d="M544 405.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="560" y="380" width="196" height="60" rx="12" fill="#FFF2CC" stroke="#E9B949" stroke-opacity="0.6"/>
+<text x="572" y="415" class="t" font-size="13" fill="#5F1A29" font-weight="700">least-squares slope</text>
+<path d="M762 405.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="778" y="380" width="168" height="60" rx="12" fill="#F4DCE0" stroke="#AE4F5E" stroke-opacity="0.5"/>
+<text x="790" y="415" class="t" font-size="13" fill="#5F1A29" font-weight="700">improving?</text>
+<path d="M952 405.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="980" y="415" class="t" font-size="13" fill="#3A1F1C">engine momentum family</text>
+<rect x="32" y="462" width="1136" height="84" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="44" y="510" class="s" font-size="17" fill="#5F1A29" font-weight="700">Profiles</text>
+<text x="150" y="500.5" class="t" font-size="13" fill="#5B3A35">per-learner</text>
+<text x="150" y="517.5" class="t" font-size="13" fill="#5B3A35">aggregates</text>
+<path d="M276 499.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="304" y="500.5" class="t" font-size="13" fill="#5B3A35">accuracy, hints, pace, skips,</text>
+<text x="304" y="517.5" class="t" font-size="13" fill="#5B3A35">session length</text>
+<path d="M544 499.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="560" y="474" width="196" height="60" rx="12" fill="#FFF2CC" stroke="#E9B949" stroke-opacity="0.6"/>
+<text x="572" y="509" class="t" font-size="13" fill="#5F1A29" font-weight="700">K-means (k = 4)</text>
+<path d="M762 499.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<rect x="778" y="474" width="168" height="60" rx="12" fill="#F4DCE0" stroke="#AE4F5E" stroke-opacity="0.5"/>
+<text x="790" y="509" class="t" font-size="13" fill="#5F1A29" font-weight="700">descriptive cluster</text>
+<path d="M952 499.0l6 5l-6 5" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<text x="980" y="509" class="t" font-size="13" fill="#3A1F1C">grown-up Insights only</text>
+<rect x="32" y="562" width="1136" height="38" rx="19" fill="#FFF2CC" stroke="#E9B949" stroke-opacity="0.6"/>
+<text x="600" y="586" class="t" font-size="13.5" fill="#5F1A29" text-anchor="middle">Learner-grouped hold-out split · reported against naive baselines · one feature module for training and inference (no train/serve skew)</text>
+<text x="1176" y="626" class="t" font-size="12" fill="#772233" text-anchor="end" letter-spacing="2" opacity="0.45">LUMORA ✦ BUILT &amp; CREATED BY DIVYANSHI</text>
+</svg>

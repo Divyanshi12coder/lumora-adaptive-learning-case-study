@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">Lumora CI and deployment</title>
+<desc id="desc">GitHub repository to GitHub Actions CI, then deploy targets: Vercel for the React SPA and Render for the Docker web service with Render PostgreSQL and pgvector; plus a local docker compose option.</desc>
+<style>
+.t{font-family:'Segoe UI', -apple-system, Helvetica, Arial, sans-serif}
+.s{font-family:Georgia, 'Times New Roman', serif}
+.m{font-family:ui-monospace, Menlo, Consolas, monospace}
+.flow{stroke-dasharray:5 6;animation:fl 1.1s linear infinite}
+@keyframes fl{to{stroke-dashoffset:-11}}
+.pulse{animation:pu 3.2s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:.45}50%{opacity:.95}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<defs><filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#772233" flood-opacity="0.09"/></filter><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1L9 5L0 9z" fill="#772233"/></marker></defs>
+<rect width="1200" height="460" rx="22" fill="#FFFDF7"/><rect x="0.5" y="0.5" width="1199" height="459" rx="22" fill="none" stroke="#E5DCCF"/>
+<text x="32" y="38" class="t" font-size="13" fill="#A0711C" letter-spacing="3" font-weight="700">CI / CD &amp; DEPLOYMENT</text>
+<rect x="32" y="168" width="150" height="84" rx="16" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="107" y="204" class="s" font-size="19" fill="#5F1A29" text-anchor="middle" font-weight="700">GitHub</text>
+<text x="107" y="226" class="t" font-size="13" fill="#5B3A35" text-anchor="middle">repository</text>
+<path d="M185 210H218" fill="none" stroke="#772233" stroke-width="2" stroke-linecap="round" class="flow" marker-end="url(#ah)"/>
+<rect x="222" y="58" width="362" height="300" rx="18" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<rect x="222" y="58" width="362" height="52" rx="18" fill="#772233"/>
+<rect x="222" y="92" width="362" height="18" fill="#772233"/>
+<text x="244" y="91" class="s" font-size="19" fill="#FFF9EA" font-weight="700">GitHub Actions CI</text>
+<circle cx="250" cy="133" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 133l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="138" class="t" font-size="14" fill="#3A1F1C">ruff lint</text>
+<circle cx="250" cy="161" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 161l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="166" class="t" font-size="14" fill="#3A1F1C">Alembic upgrade / downgrade / drift check</text>
+<circle cx="250" cy="189" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 189l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="194" class="t" font-size="14" fill="#3A1F1C">pytest on PostgreSQL + pgvector</text>
+<circle cx="250" cy="217" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 217l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="222" class="t" font-size="14" fill="#3A1F1C">pytest on SQLite</text>
+<circle cx="250" cy="245" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 245l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="250" class="t" font-size="14" fill="#3A1F1C">TypeScript typecheck</text>
+<circle cx="250" cy="273" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 273l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="278" class="t" font-size="14" fill="#3A1F1C">Vitest</text>
+<circle cx="250" cy="301" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 301l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="306" class="t" font-size="14" fill="#3A1F1C">Vite build</text>
+<circle cx="250" cy="329" r="8" fill="#FFF2CC" stroke="#E9B949"/>
+<path d="M246 329l3 3l5 -6" fill="none" stroke="#772233" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="268" y="334" class="t" font-size="14" fill="#3A1F1C">Docker images + compose smoke test</text>
+<path d="M587 116H635" fill="none" stroke="#772233" stroke-width="2" stroke-linecap="round" class="flow" marker-end="url(#ah)"/>
+<path d="M587 290H635" fill="none" stroke="#772233" stroke-width="2" stroke-linecap="round" class="flow" marker-end="url(#ah)"/>
+<rect x="640" y="58" width="300" height="136" rx="18" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="662" y="84" class="t" font-size="12" fill="#A0711C" letter-spacing="3" font-weight="700">FRONTEND</text>
+<text x="662" y="110" class="s" font-size="20" fill="#5F1A29" font-weight="700">Vercel</text>
+<text x="662" y="134" class="t" font-size="14" fill="#5B3A35">React SPA · frontend/vercel.json</text>
+<text x="662" y="154" class="t" font-size="14" fill="#5B3A35">SPA rewrites + security headers</text>
+<rect x="640" y="234" width="300" height="142" rx="18" fill="#FFFDF7" stroke="#E5DCCF" stroke-width="1" filter="url(#sh)"/>
+<text x="662" y="260" class="t" font-size="12" fill="#A0711C" letter-spacing="3" font-weight="700">BACKEND</text>
+<text x="662" y="286" class="s" font-size="20" fill="#5F1A29" font-weight="700">Render</text>
+<text x="662" y="310" class="t" font-size="14" fill="#5B3A35">Docker web service · render.yaml</text>
+<text x="662" y="330" class="t" font-size="14" fill="#5B3A35">health check /api/health</text>
+<text x="662" y="350" class="t" font-size="14" fill="#5B3A35">start.sh: migrate → seed → uvicorn</text>
+<path d="M790 197V232" fill="none" stroke="#772233" stroke-width="2" stroke-linecap="round" class="flow" marker-end="url(#ah)"/>
+<text x="804" y="220" class="m" font-size="13" fill="#772233" font-weight="700">VITE_API_URL · CORS allow-list</text>
+<path d="M943 300H985" fill="none" stroke="#772233" stroke-width="2" stroke-linecap="round" class="flow" marker-end="url(#ah)"/>
+<path d="M990 264V330A89.0 12 0 0 0 1168 330V264" fill="#772233" filter="url(#sh)"/>
+<ellipse cx="1079.0" cy="264" rx="89.0" ry="12" fill="#8E2F3F" stroke="#AE4F5E"/>
+<text x="1079" y="298" class="s" font-size="15" fill="#FFF9EA" text-anchor="middle" font-weight="700">Render PostgreSQL</text>
+<text x="1079" y="318" class="t" font-size="14" fill="#FFF2CC" text-anchor="middle">+ pgvector</text>
+<rect x="222" y="390" width="946" height="38" rx="20" fill="#FFF2CC" stroke="#E9B949" stroke-dasharray="5 4"/>
+<text x="244" y="414" class="t" font-size="14" fill="#772233" font-weight="700">Local / single host:</text>
+<text x="390" y="414" class="t" font-size="14" fill="#3A1F1C">docker compose → nginx (SPA + /api proxy) · FastAPI · pgvector/pgvector:pg16</text>
+<text x="1176" y="446" class="t" font-size="12" fill="#772233" text-anchor="end" letter-spacing="2" opacity="0.45">LUMORA ✦ BUILT &amp; CREATED BY DIVYANSHI</text>
+</svg>

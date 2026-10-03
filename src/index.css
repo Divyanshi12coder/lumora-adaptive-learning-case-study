@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  html,
+  body {
+    /* Decorative glows may extend past a section; never let them create sideways scrolling. */
+    overflow-x: clip;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-cream-50 font-sans text-cocoa antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3 {
+    @apply font-display tracking-tight;
+    font-optical-sizing: auto;
+  }
+  ::selection {
+    background: #f8d570;
+    color: #2c0b13;
+  }
+  :focus-visible {
+    outline: 3px solid #772233;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  .on-dark :focus-visible {
+    outline-color: #f8d570;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10;
+  }
+  .eyebrow {
+    @apply text-[0.7rem] font-semibold uppercase tracking-[0.22em];
+  }
+  .card {
+    @apply rounded-3xl border border-sand-200/80 bg-white/80 shadow-soft backdrop-blur-sm;
+  }
+  .glass {
+    @apply border border-white/50 bg-white/55 shadow-soft backdrop-blur-md;
+  }
+  .glass-dark {
+    @apply border border-white/10 bg-white/[0.04] backdrop-blur-md;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-sand-200 bg-white/80 px-3 py-1 text-xs font-medium text-cocoa-soft;
+  }
+  .chip-dark {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-medium text-cream-100/90;
+  }
+  .btn {
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition duration-200;
+  }
+  .btn-primary {
+    @apply btn bg-maroon-600 text-cream-50 shadow-lift hover:bg-maroon-700;
+  }
+  .btn-ghost {
+    @apply btn border border-maroon-200 bg-white/70 text-maroon-700 hover:border-maroon-400 hover:bg-white;
+  }
+  .status {
+    @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wider;
+  }
+  .status-built {
+    @apply status bg-emerald-50 text-emerald-800 ring-1 ring-emerald-200;
+  }
+  .status-optional {
+    @apply status bg-cream-200 text-cream-600 ring-1 ring-cream-400/60;
+  }
+  .status-future {
+    @apply status bg-sand-100 text-sand-600 ring-1 ring-sand-300;
+  }
+}
+
+/* Paper textures used as section backgrounds. Pure CSS: no image requests. */
+.bg-dots {
+  background-image: radial-gradient(rgba(119, 34, 51, 0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.bg-ruled {
+  background-image: linear-gradient(rgba(119, 34, 51, 0.07) 1px, transparent 1px);
+  background-size: 100% 32px;
+}
+.bg-grid-dark {
+  background-image: linear-gradient(rgba(248, 213, 112, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(248, 213, 112, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+.text-gradient {
+  background: linear-gradient(100deg, #5f1a29 0%, #8e2f3f 35%, #c0841f 70%, #5f1a29 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.flow-dash {
+  stroke-dasharray: 6 8;
+  animation: dash 1.6s linear infinite;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+
+/* Native range input styled to the brand. */
+input[type="range"].signal {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #772233 var(--fill, 50%), #e5dccf var(--fill, 50%));
+  cursor: pointer;
+}
+input[type="range"].signal::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #fffdf7;
+  border: 3px solid #772233;
+  box-shadow: 0 2px 6px rgba(119, 34, 51, 0.3);
+}
+input[type="range"].signal::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: #fffdf7;
+  border: 3px solid #772233;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
